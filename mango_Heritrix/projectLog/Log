@@ -1,0 +1,42 @@
+2015-04-05 00:13:01
+新建mango_Heritrix工程
+修改heritrix.properities
+-----------------------
+heritrix.version = 1.14.4
+
+heritrix.cmdline.admin = admin:admin
+-----------------------
+
+*****************************************************
+2015-04-05 00:15:55
+参照：http://blog.sina.com.cn/s/blog_6cc084c90100nf39.html
+             http://blog.csdn.net/gaochh01/article/details/7554787
+             修改工程
+             1.org.archive.crawler.frontier中加入ELFHashQueueAssignmentPolicy类
+             2.在org.archive.crawler.frontier.AbstractFrontier中293 行加入 ELFHashQueueAssignmentPolicy.class.getName() + " " +
+             3.在heritrix.properties中加入org.archive.crawler.frontier.ELFHashQueueAssignmentPolicy \
+             4.去除robot.txt限制
+             
+******************************************************
+2015年04月05日00:25:16
+加入WyuNews_Extractor FrontierScheduler_WYU_NEWS类      测试
+
+*********************************************************
+2015-04-07 02:38:10
+针对人民网（http://www.people.com.cn/）制定抓取策略
+1.加入RMW_Extractor类
+2.加入
+
+
+******************************************************
+2015-04-08 03:48:14
+Time:  	四月. 7, 2015 19:34:48 GMT
+Level:  	WARNING
+Message:  	
+
+defalut dic path=file:/home/songwen/graduation%20projact%20file/mmseg4j-solr/mmseg4j-solr-2.2.0-with-mmseg4j-core/mmseg4j-core-1.10.0.jar!/data not exist (in thread 'ToeThread #44: http://www.people.com.cn/'; in processor 'MirrorWriter')
+
+Exception:  	
+
+No associated exception.
+*****************************************************8

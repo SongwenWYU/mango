@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<htmlparser
+		inputdicpath="../mango_Heritrix/jobs/default001-20150413111634913/mirror/" 
+		outputdicpath="./htmlparserFile/" 
+		mirrirdicpath="../mango_Heritrix/jobs/default001-20150413111634913/mirror/" 
+		imgdicpath="./image/" 
+	/>
+	<index 
+	inputdicpath="./htmlparserFile/"
+	outputdicpath="./index/"
+	/>
+</config>
